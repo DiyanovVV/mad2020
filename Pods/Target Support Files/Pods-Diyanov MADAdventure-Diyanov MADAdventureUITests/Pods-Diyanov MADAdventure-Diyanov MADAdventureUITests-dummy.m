@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests
+@end

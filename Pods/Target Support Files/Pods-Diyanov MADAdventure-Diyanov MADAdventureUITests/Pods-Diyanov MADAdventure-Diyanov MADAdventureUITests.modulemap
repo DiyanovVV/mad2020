@@ -1,0 +1,6 @@
+framework module Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests {
+  umbrella header "Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

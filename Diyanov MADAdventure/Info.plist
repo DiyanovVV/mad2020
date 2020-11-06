@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -20,6 +25,21 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GothamPro-Black.ttf</string>
+		<string>GothamPro-BlackItalic.ttf</string>
+		<string>GothamPro-Bold.ttf</string>
+		<string>GothamPro-BoldItalic.ttf</string>
+		<string>GothamPro-Italic.ttf</string>
+		<string>GothamPro-Light.ttf</string>
+		<string>GothamPro-LightItalic.ttf</string>
+		<string>GothamPro-Medium.ttf</string>
+		<string>GothamPro-MediumItalic.ttf</string>
+		<string>GothamPro.ttf</string>
+		<string>GothamProNarrow-Bold.ttf</string>
+		<string>GothamProNarrow-Medium.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -51,7 +71,6 @@
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498EFD7764D5F6C297772EAD /* Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4746450AB32CA3B766BF96 /* Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests.framework */; };
+		56A0887E254FF26C001A69E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0887D254FF26C001A69E4 /* LoginViewController.swift */; };
+		56A08883254FFD72001A69E4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A08882254FFD72001A69E4 /* RegisterViewController.swift */; };
 		56EFE29D254FDFF500D11551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE29C254FDFF500D11551 /* AppDelegate.swift */; };
 		56EFE29F254FDFF500D11551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE29E254FDFF500D11551 /* SceneDelegate.swift */; };
 		56EFE2A1254FDFF500D11551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE2A0254FDFF500D11551 /* ViewController.swift */; };
@@ -15,6 +18,20 @@
 		56EFE2A9254FDFF700D11551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2A7254FDFF700D11551 /* LaunchScreen.storyboard */; };
 		56EFE2B4254FDFF700D11551 /* Diyanov_MADAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE2B3254FDFF700D11551 /* Diyanov_MADAdventureTests.swift */; };
 		56EFE2BF254FDFF700D11551 /* Diyanov_MADAdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE2BE254FDFF700D11551 /* Diyanov_MADAdventureUITests.swift */; };
+		56EFE2DB254FE01200D11551 /* GothamProNarrow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2CF254FE01200D11551 /* GothamProNarrow-Medium.ttf */; };
+		56EFE2DC254FE01200D11551 /* GothamPro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D0254FE01200D11551 /* GothamPro-MediumItalic.ttf */; };
+		56EFE2DD254FE01200D11551 /* GothamPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D1254FE01200D11551 /* GothamPro-Light.ttf */; };
+		56EFE2DE254FE01200D11551 /* GothamPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D2254FE01200D11551 /* GothamPro-BoldItalic.ttf */; };
+		56EFE2DF254FE01200D11551 /* GothamPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D3254FE01200D11551 /* GothamPro-Medium.ttf */; };
+		56EFE2E0254FE01200D11551 /* GothamPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D4254FE01200D11551 /* GothamPro-BlackItalic.ttf */; };
+		56EFE2E1254FE01200D11551 /* GothamPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D5254FE01200D11551 /* GothamPro-Italic.ttf */; };
+		56EFE2E2254FE01200D11551 /* GothamPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D6254FE01200D11551 /* GothamPro-Bold.ttf */; };
+		56EFE2E3254FE01200D11551 /* GothamPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D7254FE01200D11551 /* GothamPro-Black.ttf */; };
+		56EFE2E4254FE01200D11551 /* GothamPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D8254FE01200D11551 /* GothamPro-LightItalic.ttf */; };
+		56EFE2E5254FE01200D11551 /* GothamPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D9254FE01200D11551 /* GothamPro.ttf */; };
+		56EFE2E6254FE01200D11551 /* GothamProNarrow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2DA254FE01200D11551 /* GothamProNarrow-Bold.ttf */; };
+		766B78BB64816E210A853FB4 /* Pods_Diyanov_MADAdventure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82698DDE82340AC2EF774B0B /* Pods_Diyanov_MADAdventure.framework */; };
+		EFBF67974B7533245F2EAE74 /* Pods_Diyanov_MADAdventureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8563C09397E60C0627B938F9 /* Pods_Diyanov_MADAdventureTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D4746450AB32CA3B766BF96 /* Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B6FE3EB43285AD72D0E6A5 /* Pods-Diyanov MADAdventure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diyanov MADAdventure.release.xcconfig"; path = "Target Support Files/Pods-Diyanov MADAdventure/Pods-Diyanov MADAdventure.release.xcconfig"; sourceTree = "<group>"; };
+		305432C8742998F0EC46A3C2 /* Pods-Diyanov MADAdventureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diyanov MADAdventureTests.release.xcconfig"; path = "Target Support Files/Pods-Diyanov MADAdventureTests/Pods-Diyanov MADAdventureTests.release.xcconfig"; sourceTree = "<group>"; };
+		40253CB19C9BB468AA2BFCB8 /* Pods-Diyanov MADAdventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diyanov MADAdventure.debug.xcconfig"; path = "Target Support Files/Pods-Diyanov MADAdventure/Pods-Diyanov MADAdventure.debug.xcconfig"; sourceTree = "<group>"; };
+		56A0887D254FF26C001A69E4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		56A08882254FFD72001A69E4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		56EFE299254FDFF500D11551 /* Diyanov MADAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diyanov MADAdventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EFE29C254FDFF500D11551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56EFE29E254FDFF500D11551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +72,23 @@
 		56EFE2BA254FDFF700D11551 /* Diyanov MADAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diyanov MADAdventureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EFE2BE254FDFF700D11551 /* Diyanov_MADAdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diyanov_MADAdventureUITests.swift; sourceTree = "<group>"; };
 		56EFE2C0254FDFF700D11551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EFE2CF254FE01200D11551 /* GothamProNarrow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamProNarrow-Medium.ttf"; sourceTree = "<group>"; };
+		56EFE2D0254FE01200D11551 /* GothamPro-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-MediumItalic.ttf"; sourceTree = "<group>"; };
+		56EFE2D1254FE01200D11551 /* GothamPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-Light.ttf"; sourceTree = "<group>"; };
+		56EFE2D2254FE01200D11551 /* GothamPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		56EFE2D3254FE01200D11551 /* GothamPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-Medium.ttf"; sourceTree = "<group>"; };
+		56EFE2D4254FE01200D11551 /* GothamPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		56EFE2D5254FE01200D11551 /* GothamPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-Italic.ttf"; sourceTree = "<group>"; };
+		56EFE2D6254FE01200D11551 /* GothamPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-Bold.ttf"; sourceTree = "<group>"; };
+		56EFE2D7254FE01200D11551 /* GothamPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-Black.ttf"; sourceTree = "<group>"; };
+		56EFE2D8254FE01200D11551 /* GothamPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		56EFE2D9254FE01200D11551 /* GothamPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamPro.ttf; sourceTree = "<group>"; };
+		56EFE2DA254FE01200D11551 /* GothamProNarrow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamProNarrow-Bold.ttf"; sourceTree = "<group>"; };
+		6E94357CF6853C1D2EE42962 /* Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.debug.xcconfig"; path = "Target Support Files/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72BD66F372646A562C1300DA /* Pods-Diyanov MADAdventureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diyanov MADAdventureTests.debug.xcconfig"; path = "Target Support Files/Pods-Diyanov MADAdventureTests/Pods-Diyanov MADAdventureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82698DDE82340AC2EF774B0B /* Pods_Diyanov_MADAdventure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diyanov_MADAdventure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8563C09397E60C0627B938F9 /* Pods_Diyanov_MADAdventureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diyanov_MADAdventureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9844110B40041816EC23F66 /* Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.release.xcconfig"; path = "Target Support Files/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766B78BB64816E210A853FB4 /* Pods_Diyanov_MADAdventure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBF67974B7533245F2EAE74 /* Pods_Diyanov_MADAdventureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498EFD7764D5F6C297772EAD /* Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174ADAD36F5559006EB3E8BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82698DDE82340AC2EF774B0B /* Pods_Diyanov_MADAdventure.framework */,
+				1D4746450AB32CA3B766BF96 /* Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests.framework */,
+				8563C09397E60C0627B938F9 /* Pods_Diyanov_MADAdventureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		56EFE290254FDFF500D11551 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +136,8 @@
 				56EFE2B2254FDFF700D11551 /* Diyanov MADAdventureTests */,
 				56EFE2BD254FDFF700D11551 /* Diyanov MADAdventureUITests */,
 				56EFE29A254FDFF500D11551 /* Products */,
+				7413BA2D8F871AED936469FC /* Pods */,
+				174ADAD36F5559006EB3E8BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +154,12 @@
 		56EFE29B254FDFF500D11551 /* Diyanov MADAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				56EFE2EA254FE01900D11551 /* GothamPro */,
 				56EFE29C254FDFF500D11551 /* AppDelegate.swift */,
 				56EFE29E254FDFF500D11551 /* SceneDelegate.swift */,
 				56EFE2A0254FDFF500D11551 /* ViewController.swift */,
+				56A0887D254FF26C001A69E4 /* LoginViewController.swift */,
+				56A08882254FFD72001A69E4 /* RegisterViewController.swift */,
 				56EFE2A2254FDFF500D11551 /* Main.storyboard */,
 				56EFE2A5254FDFF700D11551 /* Assets.xcassets */,
 				56EFE2A7254FDFF700D11551 /* LaunchScreen.storyboard */,
@@ -128,6 +186,39 @@
 			path = "Diyanov MADAdventureUITests";
 			sourceTree = "<group>";
 		};
+		56EFE2EA254FE01900D11551 /* GothamPro */ = {
+			isa = PBXGroup;
+			children = (
+				56EFE2D7254FE01200D11551 /* GothamPro-Black.ttf */,
+				56EFE2D4254FE01200D11551 /* GothamPro-BlackItalic.ttf */,
+				56EFE2D6254FE01200D11551 /* GothamPro-Bold.ttf */,
+				56EFE2D2254FE01200D11551 /* GothamPro-BoldItalic.ttf */,
+				56EFE2D5254FE01200D11551 /* GothamPro-Italic.ttf */,
+				56EFE2D1254FE01200D11551 /* GothamPro-Light.ttf */,
+				56EFE2D8254FE01200D11551 /* GothamPro-LightItalic.ttf */,
+				56EFE2D3254FE01200D11551 /* GothamPro-Medium.ttf */,
+				56EFE2D0254FE01200D11551 /* GothamPro-MediumItalic.ttf */,
+				56EFE2D9254FE01200D11551 /* GothamPro.ttf */,
+				56EFE2DA254FE01200D11551 /* GothamProNarrow-Bold.ttf */,
+				56EFE2CF254FE01200D11551 /* GothamProNarrow-Medium.ttf */,
+			);
+			path = GothamPro;
+			sourceTree = "<group>";
+		};
+		7413BA2D8F871AED936469FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40253CB19C9BB468AA2BFCB8 /* Pods-Diyanov MADAdventure.debug.xcconfig */,
+				27B6FE3EB43285AD72D0E6A5 /* Pods-Diyanov MADAdventure.release.xcconfig */,
+				6E94357CF6853C1D2EE42962 /* Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.debug.xcconfig */,
+				A9844110B40041816EC23F66 /* Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.release.xcconfig */,
+				72BD66F372646A562C1300DA /* Pods-Diyanov MADAdventureTests.debug.xcconfig */,
+				305432C8742998F0EC46A3C2 /* Pods-Diyanov MADAdventureTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56EFE2C3254FDFF700D11551 /* Build configuration list for PBXNativeTarget "Diyanov MADAdventure" */;
 			buildPhases = (
+				529CF2FF3472F615898B1ADF /* [CP] Check Pods Manifest.lock */,
 				56EFE295254FDFF500D11551 /* Sources */,
 				56EFE296254FDFF500D11551 /* Frameworks */,
 				56EFE297254FDFF500D11551 /* Resources */,
+				B8298E7E24BE3B680587D537 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56EFE2C6254FDFF700D11551 /* Build configuration list for PBXNativeTarget "Diyanov MADAdventureTests" */;
 			buildPhases = (
+				807BC722AFCDE06B026BF989 /* [CP] Check Pods Manifest.lock */,
 				56EFE2AB254FDFF700D11551 /* Sources */,
 				56EFE2AC254FDFF700D11551 /* Frameworks */,
 				56EFE2AD254FDFF700D11551 /* Resources */,
@@ -170,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56EFE2C9254FDFF700D11551 /* Build configuration list for PBXNativeTarget "Diyanov MADAdventureUITests" */;
 			buildPhases = (
+				D7BE9964FB54E9CC43BCF577 /* [CP] Check Pods Manifest.lock */,
 				56EFE2B6254FDFF700D11551 /* Sources */,
 				56EFE2B7254FDFF700D11551 /* Frameworks */,
 				56EFE2B8254FDFF700D11551 /* Resources */,
+				E451D0B590A9F523DF35BEC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +327,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EFE2DC254FE01200D11551 /* GothamPro-MediumItalic.ttf in Resources */,
+				56EFE2E4254FE01200D11551 /* GothamPro-LightItalic.ttf in Resources */,
+				56EFE2E5254FE01200D11551 /* GothamPro.ttf in Resources */,
+				56EFE2DE254FE01200D11551 /* GothamPro-BoldItalic.ttf in Resources */,
+				56EFE2E3254FE01200D11551 /* GothamPro-Black.ttf in Resources */,
 				56EFE2A9254FDFF700D11551 /* LaunchScreen.storyboard in Resources */,
 				56EFE2A6254FDFF700D11551 /* Assets.xcassets in Resources */,
+				56EFE2E2254FE01200D11551 /* GothamPro-Bold.ttf in Resources */,
+				56EFE2E1254FE01200D11551 /* GothamPro-Italic.ttf in Resources */,
+				56EFE2E6254FE01200D11551 /* GothamProNarrow-Bold.ttf in Resources */,
+				56EFE2E0254FE01200D11551 /* GothamPro-BlackItalic.ttf in Resources */,
+				56EFE2DD254FE01200D11551 /* GothamPro-Light.ttf in Resources */,
+				56EFE2DB254FE01200D11551 /* GothamProNarrow-Medium.ttf in Resources */,
 				56EFE2A4254FDFF500D11551 /* Main.storyboard in Resources */,
+				56EFE2DF254FE01200D11551 /* GothamPro-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,11 +361,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		529CF2FF3472F615898B1ADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diyanov MADAdventure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807BC722AFCDE06B026BF989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diyanov MADAdventureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8298E7E24BE3B680587D537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diyanov MADAdventure/Pods-Diyanov MADAdventure-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diyanov MADAdventure/Pods-Diyanov MADAdventure-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Diyanov MADAdventure/Pods-Diyanov MADAdventure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7BE9964FB54E9CC43BCF577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E451D0B590A9F523DF35BEC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56EFE295254FDFF500D11551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A0887E254FF26C001A69E4 /* LoginViewController.swift in Sources */,
+				56A08883254FFD72001A69E4 /* RegisterViewController.swift in Sources */,
 				56EFE2A1254FDFF500D11551 /* ViewController.swift in Sources */,
 				56EFE29D254FDFF500D11551 /* AppDelegate.swift in Sources */,
 				56EFE29F254FDFF500D11551 /* SceneDelegate.swift in Sources */,
@@ -433,6 +646,7 @@
 		};
 		56EFE2C4254FDFF700D11551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40253CB19C9BB468AA2BFCB8 /* Pods-Diyanov MADAdventure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +665,7 @@
 		};
 		56EFE2C5254FDFF700D11551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B6FE3EB43285AD72D0E6A5 /* Pods-Diyanov MADAdventure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +684,7 @@
 		};
 		56EFE2C7254FDFF700D11551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BD66F372646A562C1300DA /* Pods-Diyanov MADAdventureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +706,7 @@
 		};
 		56EFE2C8254FDFF700D11551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305432C8742998F0EC46A3C2 /* Pods-Diyanov MADAdventureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +728,7 @@
 		};
 		56EFE2CA254FDFF700D11551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E94357CF6853C1D2EE42962 /* Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +748,7 @@
 		};
 		56EFE2CB254FDFF700D11551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9844110B40041816EC23F66 /* Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
