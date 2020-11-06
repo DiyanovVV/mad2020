@@ -68,11 +68,16 @@ class LoginViewController: UIViewController {
         let headers: HTTPHeaders = [
                     "Content-Type":"application/json"
                 ]
-        AF.request(url, method: .post, parameters: parameters, headers: headers).validate().responseJSON { response in
+        AF.request(url, method: .post, parameters: parameters, encoder: JSONParameterEncoder.default, headers: headers).validate().responseJSON { response in
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
                 print("JSON: \(json)")
+                if json["token"].stringValue != nil {
+                    UserDefaults.standard.set(json["token"].stringValue, forKey: "userToken")
+                    self.performSegue(withIdentifier: "splitAuthSegue", sender: self)
+                }
+                
             case .failure(let error):
                 print(error)
             }

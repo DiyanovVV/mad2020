@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		498EFD7764D5F6C297772EAD /* Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4746450AB32CA3B766BF96 /* Pods_Diyanov_MADAdventure_Diyanov_MADAdventureUITests.framework */; };
 		56A0887E254FF26C001A69E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0887D254FF26C001A69E4 /* LoginViewController.swift */; };
 		56A08883254FFD72001A69E4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A08882254FFD72001A69E4 /* RegisterViewController.swift */; };
+		56A0889025552290001A69E4 /* SplitMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0888F25552290001A69E4 /* SplitMenuViewController.swift */; };
+		56A088952555229E001A69E4 /* SplitMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A088942555229E001A69E4 /* SplitMenuTableViewController.swift */; };
+		56A088A325552B99001A69E4 /* SplitMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A088A225552B99001A69E4 /* SplitMenuTableViewCell.swift */; };
 		56EFE29D254FDFF500D11551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE29C254FDFF500D11551 /* AppDelegate.swift */; };
 		56EFE29F254FDFF500D11551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE29E254FDFF500D11551 /* SceneDelegate.swift */; };
 		56EFE2A1254FDFF500D11551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFE2A0254FDFF500D11551 /* ViewController.swift */; };
@@ -30,6 +33,7 @@
 		56EFE2E4254FE01200D11551 /* GothamPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D8254FE01200D11551 /* GothamPro-LightItalic.ttf */; };
 		56EFE2E5254FE01200D11551 /* GothamPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2D9254FE01200D11551 /* GothamPro.ttf */; };
 		56EFE2E6254FE01200D11551 /* GothamProNarrow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56EFE2DA254FE01200D11551 /* GothamProNarrow-Bold.ttf */; };
+		56F78B94255540D800F97C0E /* AccessPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F78B93255540D800F97C0E /* AccessPhoneViewController.swift */; };
 		766B78BB64816E210A853FB4 /* Pods_Diyanov_MADAdventure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82698DDE82340AC2EF774B0B /* Pods_Diyanov_MADAdventure.framework */; };
 		EFBF67974B7533245F2EAE74 /* Pods_Diyanov_MADAdventureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8563C09397E60C0627B938F9 /* Pods_Diyanov_MADAdventureTests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +62,9 @@
 		40253CB19C9BB468AA2BFCB8 /* Pods-Diyanov MADAdventure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diyanov MADAdventure.debug.xcconfig"; path = "Target Support Files/Pods-Diyanov MADAdventure/Pods-Diyanov MADAdventure.debug.xcconfig"; sourceTree = "<group>"; };
 		56A0887D254FF26C001A69E4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		56A08882254FFD72001A69E4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		56A0888F25552290001A69E4 /* SplitMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMenuViewController.swift; sourceTree = "<group>"; };
+		56A088942555229E001A69E4 /* SplitMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMenuTableViewController.swift; sourceTree = "<group>"; };
+		56A088A225552B99001A69E4 /* SplitMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMenuTableViewCell.swift; sourceTree = "<group>"; };
 		56EFE299254FDFF500D11551 /* Diyanov MADAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diyanov MADAdventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EFE29C254FDFF500D11551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56EFE29E254FDFF500D11551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +91,7 @@
 		56EFE2D8254FE01200D11551 /* GothamPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamPro-LightItalic.ttf"; sourceTree = "<group>"; };
 		56EFE2D9254FE01200D11551 /* GothamPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamPro.ttf; sourceTree = "<group>"; };
 		56EFE2DA254FE01200D11551 /* GothamProNarrow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamProNarrow-Bold.ttf"; sourceTree = "<group>"; };
+		56F78B93255540D800F97C0E /* AccessPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessPhoneViewController.swift; sourceTree = "<group>"; };
 		6E94357CF6853C1D2EE42962 /* Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.debug.xcconfig"; path = "Target Support Files/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests/Pods-Diyanov MADAdventure-Diyanov MADAdventureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		72BD66F372646A562C1300DA /* Pods-Diyanov MADAdventureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diyanov MADAdventureTests.debug.xcconfig"; path = "Target Support Files/Pods-Diyanov MADAdventureTests/Pods-Diyanov MADAdventureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		82698DDE82340AC2EF774B0B /* Pods_Diyanov_MADAdventure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diyanov_MADAdventure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +137,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		56A0889E25552B06001A69E4 /* Split */ = {
+			isa = PBXGroup;
+			children = (
+				56A088A225552B99001A69E4 /* SplitMenuTableViewCell.swift */,
+				56A0888F25552290001A69E4 /* SplitMenuViewController.swift */,
+				56A088942555229E001A69E4 /* SplitMenuTableViewController.swift */,
+			);
+			path = Split;
+			sourceTree = "<group>";
+		};
 		56EFE290254FDFF500D11551 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +178,8 @@
 				56EFE2A0254FDFF500D11551 /* ViewController.swift */,
 				56A0887D254FF26C001A69E4 /* LoginViewController.swift */,
 				56A08882254FFD72001A69E4 /* RegisterViewController.swift */,
+				56F78B93255540D800F97C0E /* AccessPhoneViewController.swift */,
+				56A0889E25552B06001A69E4 /* Split */,
 				56EFE2A2254FDFF500D11551 /* Main.storyboard */,
 				56EFE2A5254FDFF700D11551 /* Assets.xcassets */,
 				56EFE2A7254FDFF700D11551 /* LaunchScreen.storyboard */,
@@ -215,7 +235,6 @@
 				72BD66F372646A562C1300DA /* Pods-Diyanov MADAdventureTests.debug.xcconfig */,
 				305432C8742998F0EC46A3C2 /* Pods-Diyanov MADAdventureTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -469,11 +488,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A0889025552290001A69E4 /* SplitMenuViewController.swift in Sources */,
 				56A0887E254FF26C001A69E4 /* LoginViewController.swift in Sources */,
+				56F78B94255540D800F97C0E /* AccessPhoneViewController.swift in Sources */,
 				56A08883254FFD72001A69E4 /* RegisterViewController.swift in Sources */,
+				56A088A325552B99001A69E4 /* SplitMenuTableViewCell.swift in Sources */,
 				56EFE2A1254FDFF500D11551 /* ViewController.swift in Sources */,
 				56EFE29D254FDFF500D11551 /* AppDelegate.swift in Sources */,
 				56EFE29F254FDFF500D11551 /* SceneDelegate.swift in Sources */,
+				56A088952555229E001A69E4 /* SplitMenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

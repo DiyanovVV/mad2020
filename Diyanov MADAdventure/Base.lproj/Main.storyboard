@@ -193,11 +193,121 @@
                         <outlet property="loginView" destination="6a7-p7-EeD" id="rHe-KA-u84"/>
                         <outlet property="passwordLineTFImage" destination="5nm-Rs-eTb" id="7dR-JC-w2P"/>
                         <outlet property="passwordTF" destination="86E-la-y6Q" id="4a6-1R-uno"/>
+                        <segue destination="EbO-CB-2iS" kind="presentation" identifier="splitAuthSegue" modalPresentationStyle="fullScreen" id="KaV-21-n5P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pd6-il-ozK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="807" y="138"/>
+        </scene>
+        <!--Access Phone View Controller-->
+        <scene sceneID="pdH-gP-LOU">
+            <objects>
+                <viewController id="tjp-OG-QS0" customClass="AccessPhoneViewController" customModule="Diyanov_MADAdventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1So-p1-yLp">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-Tutor" translatesAutoresizingMaskIntoConstraints="NO" id="Twt-Df-b9m">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XK9-pI-NEi">
+                                <rect key="frame" x="358" y="272" width="650" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="sbg-Y6-XFL">
+                                        <rect key="frame" x="89" y="36" width="472" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Activation code was sent to number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdK-4U-Z1C">
+                                        <rect key="frame" x="107" y="187" width="437" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamPro" family="Gotham Pro" pointSize="24"/>
+                                        <color key="textColor" red="0.40000396970000002" green="0.39999473089999998" blue="0.39999657869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rmd-wr-qvZ">
+                                        <rect key="frame" x="107" y="217" width="437" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamPro" family="Gotham Pro" pointSize="24"/>
+                                        <color key="textColor" red="0.40000396970000002" green="0.39999473089999998" blue="0.39999657869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phoneCode" translatesAutoresizingMaskIntoConstraints="NO" id="paV-Zz-3V3">
+                                        <rect key="frame" x="225" y="258" width="200" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="299 sec" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dg8-eC-OgD">
+                                        <rect key="frame" x="107" y="338" width="437" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamPro" family="Gotham Pro" pointSize="24"/>
+                                        <color key="textColor" red="0.40000396970000002" green="0.39999473089999998" blue="0.39999657869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pL3-cG-EOR">
+                                        <rect key="frame" x="225" y="269" width="39" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="0.97255820039999996" green="0.97253721950000005" blue="0.97254139179999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textChanged:" destination="tjp-OG-QS0" eventType="editingChanged" id="oIo-Lf-OWH"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0vm-T7-fE3">
+                                        <rect key="frame" x="278" y="269" width="39" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textChanged:" destination="tjp-OG-QS0" eventType="editingDidEnd" id="qwP-du-3vw"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2qF-Fw-6U9">
+                                        <rect key="frame" x="332" y="269" width="39" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textChanged:" destination="tjp-OG-QS0" eventType="editingDidEnd" id="iL4-Vw-Caj"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bUp-P9-gQQ">
+                                        <rect key="frame" x="383" y="269" width="39" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="textChanged:" destination="tjp-OG-QS0" eventType="editingDidEnd" id="M7Z-Dt-d8P"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Send code again" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRU-Rj-Ynf">
+                                        <rect key="frame" x="107" y="381" width="437" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamPro" family="Gotham Pro" pointSize="24"/>
+                                        <color key="textColor" red="0.40000396970000002" green="0.39999473089999998" blue="0.39999657869999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1647001505" green="0.16467091440000001" blue="0.1686267555" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qA1-25-tjS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="accessBackgroundView" destination="XK9-pI-NEi" id="kJY-Ds-OCK"/>
+                        <outlet property="numberTF1" destination="pL3-cG-EOR" id="CIb-Wg-BrC"/>
+                        <outlet property="numberTF2" destination="0vm-T7-fE3" id="aaZ-dH-DGk"/>
+                        <outlet property="numberTF3" destination="2qF-Fw-6U9" id="Pic-yr-Mn0"/>
+                        <outlet property="numberTF4" destination="bUp-P9-gQQ" id="0e1-cF-F1j"/>
+                        <outlet property="phoneLabel" destination="Rmd-wr-qvZ" id="tg7-JU-7QY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tGZ-Vu-oT0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1435.4319180087846" y="-562.5"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="8GC-9A-GCl">
@@ -390,19 +500,179 @@
                         <outlet property="registerView" destination="B6w-jp-nuq" id="Ao5-vB-fQr"/>
                         <outlet property="repeatPasswordTF" destination="FB1-lR-qZq" id="llU-eX-9l1"/>
                         <outlet property="signUpButton" destination="28J-1m-bfR" id="gxc-vf-NKH"/>
+                        <segue destination="tjp-OG-QS0" kind="presentation" identifier="accessPhoneSegue" modalPresentationStyle="fullScreen" id="RI9-zg-OUG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bpz-tB-9dm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1434.9926793557831" y="137.6953125"/>
         </scene>
+        <!--Split Menu View Controller-->
+        <scene sceneID="LBY-c2-T8j">
+            <objects>
+                <viewController id="LEx-cP-pKe" customClass="SplitMenuViewController" customModule="Diyanov_MADAdventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dHq-HR-RNc">
+                        <rect key="frame" x="0.0" y="0.0" width="1045.5" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-Tutor" translatesAutoresizingMaskIntoConstraints="NO" id="65e-a1-Nbs">
+                                <rect key="frame" x="-322" y="0.0" width="1367" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdS-Je-8au">
+                                <rect key="frame" x="47" y="87" width="489" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GothamPro" family="Gotham Pro" pointSize="80"/>
+                                <color key="textColor" red="0.1253719032" green="0.7810732722" blue="0.68627440930000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kRZ-Dk-8Ee">
+                                <rect key="frame" x="47" y="167" width="602" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="272-nF-7n2">
+                                <rect key="frame" x="47" y="575" width="602" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="expoImage" translatesAutoresizingMaskIntoConstraints="NO" id="sRr-Eg-NYm">
+                                        <rect key="frame" x="378" y="0.0" width="224" height="206"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Go to WorldSkills 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNQ-jo-lGC">
+                                        <rect key="frame" x="8" y="8" width="314" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamPro" family="Gotham Pro" pointSize="28"/>
+                                        <color key="textColor" red="0.1253719032" green="0.7810732722" blue="0.68627440930000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoe-Ba-nf7">
+                                        <rect key="frame" x="8" y="173" width="95" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="GothamPro" family="Gotham Pro" pointSize="28"/>
+                                        <color key="textColor" red="0.1253719032" green="0.7810732722" blue="0.68627440930000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4WS-Dx-vnQ">
+                                        <rect key="frame" x="8" y="37" width="435" height="132"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Now you must go to Kazan Expo and find next key. And there are many more interesting information. I just lazy to write it. Too lazy. Just let me stop. I don't wanna do it.</string>
+                                        <fontDescription key="fontDescription" name="GothamPro" family="Gotham Pro" pointSize="22"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="detailArrow" translatesAutoresizingMaskIntoConstraints="NO" id="PUp-cn-obw">
+                                        <rect key="frame" x="111" y="171" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16862171889999999" green="0.168592453" blue="0.17254832389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SoU-0T-pYE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZIw-Ip-MXP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2760.6149341142018" y="441.796875"/>
+        </scene>
+        <!--Split Menu Table View Controller-->
+        <scene sceneID="FZ6-vW-L7e">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="eJV-iu-P91" customClass="SplitMenuTableViewController" customModule="Diyanov_MADAdventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fP5-8Q-3w5">
+                        <rect key="frame" x="0.0" y="0.0" width="420" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1725434065" green="0.1725139916" blue="0.17646986249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="YQj-3k-qTg">
+                            <rect key="frame" x="0.0" y="0.0" width="420" height="95"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="XgR-p3-sO9">
+                                    <rect key="frame" x="119" y="8" width="281" height="87"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.1725434065" green="0.1725139916" blue="0.17646986249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="80" id="1UY-UC-BAx" customClass="SplitMenuTableViewCell" customModule="Diyanov_MADAdventure" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="123" width="420" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1UY-UC-BAx" id="qod-Ba-Ogy">
+                                    <rect key="frame" x="100" y="0.0" width="320" height="80"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMd-9A-aUd">
+                                            <rect key="frame" x="16" y="23" width="35" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7e-s8-5E6">
+                                            <rect key="frame" x="59" y="30" width="248" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="GothamPro" family="Gotham Pro" pointSize="22"/>
+                                            <color key="textColor" red="0.1253719032" green="0.7810732722" blue="0.68627440930000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="splitMenuImage" destination="BMd-9A-aUd" id="S4S-il-wHF"/>
+                                    <outlet property="splitMenuLabel" destination="f7e-s8-5E6" id="ToQ-DQ-MC1"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eJV-iu-P91" id="jVl-3Z-I5V"/>
+                            <outlet property="delegate" destination="eJV-iu-P91" id="t3B-In-Ni5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="P2d-oe-yw3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rUQ-7r-6Yf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3448.9019033674963" y="-166.40625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="egU-N9-El8">
+            <objects>
+                <navigationController id="7jV-rX-cO5" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UdP-qJ-KZN">
+                        <rect key="frame" x="0.0" y="0.0" width="420" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eJV-iu-P91" kind="relationship" relationship="rootViewController" id="qQo-GB-af4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mnt-9t-cmb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2761" y="-166"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="gBp-gt-Ngx">
+            <objects>
+                <splitViewController allowDoubleColumnStyle="YES" id="EbO-CB-2iS" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="7jV-rX-cO5" kind="relationship" relationship="masterViewController" id="OJM-XT-oYt"/>
+                        <segue destination="LEx-cP-pKe" kind="relationship" relationship="detailViewController" id="8D1-SL-a7i"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cx0-jb-bXe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2074" y="138"/>
+        </scene>
     </scenes>
     <resources>
         <image name="background-Tutor" width="2400" height="1200"/>
+        <image name="detailArrow" width="25" height="12"/>
+        <image name="expoImage" width="276" height="260"/>
         <image name="facebook-Logo" width="39" height="39"/>
         <image name="first-Tutor" width="650" height="650"/>
         <image name="line-TextField" width="450" height="2"/>
         <image name="logo" width="2521" height="687"/>
+        <image name="phoneCode" width="200" height="2"/>
         <image name="rectangle" width="2012" height="1482"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

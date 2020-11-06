@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class RegisterViewController: UIViewController {
 
@@ -42,7 +44,7 @@ class RegisterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         emailTF.attributedPlaceholder = NSAttributedString(string: "Email", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
         emailTF.delegate = self
         
@@ -133,6 +135,7 @@ class RegisterViewController: UIViewController {
         
         if checkValidation == true {
             editTextFieldsImage(bool: true)
+            registerUser(email: emailTF.text!, nickName: nicknameTF.text!, phone: phoneTF.text!, password: passwordTF.text!)
         }
         
         
@@ -146,6 +149,27 @@ class RegisterViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func registerUser(email: String, nickName: String, phone: String, password: String) {
+        let url = "http://wsk2019.mad.hakta.pro/api/users"
+        
+        let parameters: [String : String] = ["email" : email, "nickName": nickName, "password": password, "phone": phone]
+        let headers: HTTPHeaders = [
+            "Content-Type": "application/json"
+        ]
+        AF.request(url, method: .post, parameters: parameters, encoder: JSONParameterEncoder.default, headers: headers).validate().responseJSON { [self] (response) in
+            switch response.result {
+            case .success(let value) :
+            let json = JSON(value)
+            print(json)
+                UserDefaults.standard.set(codeTF.text!, forKey: "code")
+                UserDefaults.standard.set(phone, forKey: "phone")
+                self.performSegue(withIdentifier: "accessPhoneSegue", sender: self)
+            case .failure(let error) :
+            print(error)
+            }
+        }
+    }
     
     func editTextFieldsImage(bool: Bool) {
         errorEmailLabel.isHidden = bool
@@ -202,4 +226,5 @@ extension RegisterViewController: UITextFieldDelegate {
             errorRepeatPasswordLabel.isHidden = true
         }
     }
+    
 }
